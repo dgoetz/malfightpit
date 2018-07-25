@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<title>Malfight-Pit - Spannaboy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.display-container{position:relative}
+.display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.center{text-align:center!important}
+.content{max-width:980px;margin:auto}
+.caption{position:absolute;left:0;bottom:0;font-size:18px!important;padding:0.01em 16px;padding-top:16px!important;padding-bottom:16px!important}
+.button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.button{white-space:normal}
+.button:hover{color:#000!important;background-color:#ccc!important}
+.black{color:#fff!important;background-color:#000!important}
+.avatar{border-style: solid;width:200px;float:right}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+<h1 class="center">Spannaboy</h1>
+
+<div class="content display-container clearfix">
+  <img class="avatar" src="./Spannaboy.png">
+  Spannaboy hat die Organisation des Malfight-Pit &uuml;bernommen und versucht nun sich selbst und m&ouml;glichst viele weitere immer wieder zu motivieren graues Plastik in bemalte Miniaturen zu verwandeln. Beim Malen ist sein erkl&auml;rtes Ziel ein guter Tabletopstandard, beim Basteln keine zwei gleichen Orks zu besitzen. In seinem Waaagh finden sich alle Klans wieder, wobei sein Heizakult "Sunz of Mork" mit ihren Bikes und Buggies die wohl gr&ouml;&#xDF;te Fraktion bilden.<br/>
+  Neben seinen Orks finden sich noch ein paar Kroot, Dark Eldar und Harlequine und au&#xDF;er bei Warhammer 40k ist er vor allem bei Blood Bowl aktiv.<br/><br/>
+  <img src="https://www.gw-fanworld.net/favicon.ico"><a href="https://www.gw-fanworld.net/member.php/46484-Spannaboy">Spannaboy</a>
+</div>
+
+<h2 class="center">Beitr&auml;ge</h2>
+
+<div class="content display-container">
+  <div class="display-container mySlide">
+    <img src="../3Groessen1Stil/Spannaboy/3Groessen_1.jpg" style="width:100%">
+    <div class="caption black">3 Gr&ouml;&#xDF;en - 1 Style: da Skunz Boyz</div>
+  </div>
+  <div class="display-container mySlide">
+    <img src="../3Groessen1Stil/Spannaboy/3Groessen_2.jpg" style="width:100%">
+    <div class="caption black">3 Gr&ouml;&#xDF;en - 1 Style: da Skunz Boyz</div>
+  </div>
+  <div class="display-container mySlide">
+    <img src="../3Groessen1Stil/Spannaboy/3Groessen_3.jpg" style="width:100%">
+    <div class="caption black">3 Gr&ouml;&#xDF;en - 1 Style: da Skunz Boyz</div>
+  </div>
+  <div class="display-container mySlide">
+    <img src="../3Groessen1Stil/Spannaboy/3Groessen_4.jpg" style="width:100%">
+    <div class="caption black">3 Gr&ouml;&#xDF;en - 1 Style: da Skunz Boyz</div>
+  </div>
+
+  <div class="display-container mySlide">
+    <img src="../Looted/Spannaboy/IMG_2113.jpg" style="width:100%">
+    <div class="caption black">Looted: Looted Wagon</div>
+  </div>
+  <div class="display-container mySlide">
+    <img src="../Looted/Spannaboy/IMG_2112.jpg" style="width:100%">
+    <div class="caption black">Looted: Looted Wagon</div>
+  </div>
+  <div class="display-container mySlide">
+    <img src="../Looted/Spannaboy/IMG_2118.jpg" style="width:100%">
+    <div class="caption black">Looted: Looted Wagon</div>
+  </div>
+
+  <div class="display-container mySlide">
+    <img src="../Bikes_and_Buggies/Spannaboy/1.jpg" style="width:100%">
+    <div class="caption black">Bikes und Buggies: Biker-Dok und Goblinbiker</div>
+  </div>
+  <div class="display-container mySlide">
+    <img src="../Bikes_and_Buggies/Spannaboy/2.jpg" style="width:100%">
+    <div class="caption black">Bikes und Buggies: Biker-Dok</div>
+  </div>
+  <div class="display-container mySlide">
+    <img src="../Bikes_and_Buggies/Spannaboy/3.jpg" style="width:100%">
+    <div class="caption black">Bikes und Buggies: Goblinbiker</div>
+  </div>
+
+  <button class="button black display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="button black display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<h2 class="center">Abzeichen</h2>
+<div class="content display-container">
+  <img src="../3Groessen1Stil/_images/Spannaboy.png">
+  <img src="../Looted/_images/Spannaboy.png">
+  <img src="../Bikes_and_Buggies/_images/Spannaboy.png">
+</div>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlide");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+</body>
+</html>
